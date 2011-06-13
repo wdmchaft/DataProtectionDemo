@@ -1,0 +1,472 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		32081D7E1333A3CF009383C0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32081D7D1333A3CF009383C0 /* UIKit.framework */; };
+		32081D801333A3CF009383C0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32081D7F1333A3CF009383C0 /* Foundation.framework */; };
+		32081D821333A3CF009383C0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32081D811333A3CF009383C0 /* CoreGraphics.framework */; };
+		32081D881333A3CF009383C0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 32081D861333A3CF009383C0 /* InfoPlist.strings */; };
+		32081D8B1333A3CF009383C0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 32081D8A1333A3CF009383C0 /* main.m */; };
+		32081D8E1333A3CF009383C0 /* DataProtectionDemoAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 32081D8D1333A3CF009383C0 /* DataProtectionDemoAppDelegate.m */; };
+		32081D911333A3CF009383C0 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 32081D8F1333A3CF009383C0 /* MainWindow.xib */; };
+		32081D941333A3CF009383C0 /* RUBDataProtectionDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 32081D931333A3CF009383C0 /* RUBDataProtectionDemoViewController.m */; };
+		32081D971333A3CF009383C0 /* DataProtectionDemoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 32081D951333A3CF009383C0 /* DataProtectionDemoViewController.xib */; };
+		32081D9E1333A3CF009383C0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32081D7D1333A3CF009383C0 /* UIKit.framework */; };
+		32081D9F1333A3CF009383C0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32081D7F1333A3CF009383C0 /* Foundation.framework */; };
+		32081DA01333A3CF009383C0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32081D811333A3CF009383C0 /* CoreGraphics.framework */; };
+		32081DA81333A3CF009383C0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 32081DA61333A3CF009383C0 /* InfoPlist.strings */; };
+		32081DAB1333A3CF009383C0 /* DataProtectionDemoTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 32081DAA1333A3CF009383C0 /* DataProtectionDemoTests.h */; };
+		32081DAD1333A3CF009383C0 /* DataProtectionDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 32081DAC1333A3CF009383C0 /* DataProtectionDemoTests.m */; };
+		32081DB71333A45F009383C0 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32081DB61333A45F009383C0 /* Security.framework */; };
+		32081DB91333A695009383C0 /* SecretContent.txt in Resources */ = {isa = PBXBuildFile; fileRef = 32081DB81333A695009383C0 /* SecretContent.txt */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		32081DA11333A3CF009383C0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 32081D701333A3CE009383C0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 32081D781333A3CF009383C0;
+			remoteInfo = DataProtectionDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		32081D791333A3CF009383C0 /* DataProtectionDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DataProtectionDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		32081D7D1333A3CF009383C0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		32081D7F1333A3CF009383C0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		32081D811333A3CF009383C0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		32081D851333A3CF009383C0 /* DataProtectionDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DataProtectionDemo-Info.plist"; sourceTree = "<group>"; };
+		32081D871333A3CF009383C0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		32081D891333A3CF009383C0 /* DataProtectionDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DataProtectionDemo-Prefix.pch"; sourceTree = "<group>"; };
+		32081D8A1333A3CF009383C0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32081D8C1333A3CF009383C0 /* DataProtectionDemoAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DataProtectionDemoAppDelegate.h; sourceTree = "<group>"; };
+		32081D8D1333A3CF009383C0 /* DataProtectionDemoAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DataProtectionDemoAppDelegate.m; sourceTree = "<group>"; };
+		32081D901333A3CF009383C0 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		32081D921333A3CF009383C0 /* RUBDataProtectionDemoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RUBDataProtectionDemoViewController.h; sourceTree = "<group>"; };
+		32081D931333A3CF009383C0 /* RUBDataProtectionDemoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RUBDataProtectionDemoViewController.m; sourceTree = "<group>"; };
+		32081D961333A3CF009383C0 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/DataProtectionDemoViewController.xib; sourceTree = "<group>"; };
+		32081D9D1333A3CF009383C0 /* DataProtectionDemoTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DataProtectionDemoTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		32081DA51333A3CF009383C0 /* DataProtectionDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DataProtectionDemoTests-Info.plist"; sourceTree = "<group>"; };
+		32081DA71333A3CF009383C0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		32081DA91333A3CF009383C0 /* DataProtectionDemoTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DataProtectionDemoTests-Prefix.pch"; sourceTree = "<group>"; };
+		32081DAA1333A3CF009383C0 /* DataProtectionDemoTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DataProtectionDemoTests.h; sourceTree = "<group>"; };
+		32081DAC1333A3CF009383C0 /* DataProtectionDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DataProtectionDemoTests.m; sourceTree = "<group>"; };
+		32081DB61333A45F009383C0 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		32081DB81333A695009383C0 /* SecretContent.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SecretContent.txt; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		32081D761333A3CF009383C0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32081DB71333A45F009383C0 /* Security.framework in Frameworks */,
+				32081D7E1333A3CF009383C0 /* UIKit.framework in Frameworks */,
+				32081D801333A3CF009383C0 /* Foundation.framework in Frameworks */,
+				32081D821333A3CF009383C0 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32081D991333A3CF009383C0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32081D9E1333A3CF009383C0 /* UIKit.framework in Frameworks */,
+				32081D9F1333A3CF009383C0 /* Foundation.framework in Frameworks */,
+				32081DA01333A3CF009383C0 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		32081D6E1333A3CE009383C0 = {
+			isa = PBXGroup;
+			children = (
+				32081D831333A3CF009383C0 /* DataProtectionDemo */,
+				32081DA31333A3CF009383C0 /* DataProtectionDemoTests */,
+				32081D7C1333A3CF009383C0 /* Frameworks */,
+				32081D7A1333A3CF009383C0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		32081D7A1333A3CF009383C0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				32081D791333A3CF009383C0 /* DataProtectionDemo.app */,
+				32081D9D1333A3CF009383C0 /* DataProtectionDemoTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		32081D7C1333A3CF009383C0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				32081DB61333A45F009383C0 /* Security.framework */,
+				32081D7D1333A3CF009383C0 /* UIKit.framework */,
+				32081D7F1333A3CF009383C0 /* Foundation.framework */,
+				32081D811333A3CF009383C0 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		32081D831333A3CF009383C0 /* DataProtectionDemo */ = {
+			isa = PBXGroup;
+			children = (
+				32081D8C1333A3CF009383C0 /* DataProtectionDemoAppDelegate.h */,
+				32081D8D1333A3CF009383C0 /* DataProtectionDemoAppDelegate.m */,
+				32081D8F1333A3CF009383C0 /* MainWindow.xib */,
+				32081D921333A3CF009383C0 /* RUBDataProtectionDemoViewController.h */,
+				32081D931333A3CF009383C0 /* RUBDataProtectionDemoViewController.m */,
+				32081D951333A3CF009383C0 /* DataProtectionDemoViewController.xib */,
+				32081D841333A3CF009383C0 /* Supporting Files */,
+			);
+			path = DataProtectionDemo;
+			sourceTree = "<group>";
+		};
+		32081D841333A3CF009383C0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				32081D851333A3CF009383C0 /* DataProtectionDemo-Info.plist */,
+				32081D861333A3CF009383C0 /* InfoPlist.strings */,
+				32081D891333A3CF009383C0 /* DataProtectionDemo-Prefix.pch */,
+				32081D8A1333A3CF009383C0 /* main.m */,
+				32081DB81333A695009383C0 /* SecretContent.txt */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		32081DA31333A3CF009383C0 /* DataProtectionDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				32081DAA1333A3CF009383C0 /* DataProtectionDemoTests.h */,
+				32081DAC1333A3CF009383C0 /* DataProtectionDemoTests.m */,
+				32081DA41333A3CF009383C0 /* Supporting Files */,
+			);
+			path = DataProtectionDemoTests;
+			sourceTree = "<group>";
+		};
+		32081DA41333A3CF009383C0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				32081DA51333A3CF009383C0 /* DataProtectionDemoTests-Info.plist */,
+				32081DA61333A3CF009383C0 /* InfoPlist.strings */,
+				32081DA91333A3CF009383C0 /* DataProtectionDemoTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		32081D781333A3CF009383C0 /* DataProtectionDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32081DB01333A3CF009383C0 /* Build configuration list for PBXNativeTarget "DataProtectionDemo" */;
+			buildPhases = (
+				32081D751333A3CF009383C0 /* Sources */,
+				32081D761333A3CF009383C0 /* Frameworks */,
+				32081D771333A3CF009383C0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DataProtectionDemo;
+			productName = DataProtectionDemo;
+			productReference = 32081D791333A3CF009383C0 /* DataProtectionDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		32081D9C1333A3CF009383C0 /* DataProtectionDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32081DB31333A3CF009383C0 /* Build configuration list for PBXNativeTarget "DataProtectionDemoTests" */;
+			buildPhases = (
+				32081D981333A3CF009383C0 /* Sources */,
+				32081D991333A3CF009383C0 /* Frameworks */,
+				32081D9A1333A3CF009383C0 /* Resources */,
+				32081D9B1333A3CF009383C0 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				32081DA21333A3CF009383C0 /* PBXTargetDependency */,
+			);
+			name = DataProtectionDemoTests;
+			productName = DataProtectionDemoTests;
+			productReference = 32081D9D1333A3CF009383C0 /* DataProtectionDemoTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		32081D701333A3CE009383C0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "Manuel Binna";
+			};
+			buildConfigurationList = 32081D731333A3CE009383C0 /* Build configuration list for PBXProject "DataProtectionDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 32081D6E1333A3CE009383C0;
+			productRefGroup = 32081D7A1333A3CF009383C0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				32081D781333A3CF009383C0 /* DataProtectionDemo */,
+				32081D9C1333A3CF009383C0 /* DataProtectionDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		32081D771333A3CF009383C0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32081D881333A3CF009383C0 /* InfoPlist.strings in Resources */,
+				32081D911333A3CF009383C0 /* MainWindow.xib in Resources */,
+				32081D971333A3CF009383C0 /* DataProtectionDemoViewController.xib in Resources */,
+				32081DB91333A695009383C0 /* SecretContent.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32081D9A1333A3CF009383C0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32081DA81333A3CF009383C0 /* InfoPlist.strings in Resources */,
+				32081DAB1333A3CF009383C0 /* DataProtectionDemoTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		32081D9B1333A3CF009383C0 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		32081D751333A3CF009383C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32081D8B1333A3CF009383C0 /* main.m in Sources */,
+				32081D8E1333A3CF009383C0 /* DataProtectionDemoAppDelegate.m in Sources */,
+				32081D941333A3CF009383C0 /* RUBDataProtectionDemoViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32081D981333A3CF009383C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32081DAD1333A3CF009383C0 /* DataProtectionDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		32081DA21333A3CF009383C0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 32081D781333A3CF009383C0 /* DataProtectionDemo */;
+			targetProxy = 32081DA11333A3CF009383C0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		32081D861333A3CF009383C0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				32081D871333A3CF009383C0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		32081D8F1333A3CF009383C0 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				32081D901333A3CF009383C0 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		32081D951333A3CF009383C0 /* DataProtectionDemoViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				32081D961333A3CF009383C0 /* en */,
+			);
+			name = DataProtectionDemoViewController.xib;
+			sourceTree = "<group>";
+		};
+		32081DA61333A3CF009383C0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				32081DA71333A3CF009383C0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		32081DAE1333A3CF009383C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		32081DAF1333A3CF009383C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		32081DB11333A3CF009383C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DataProtectionDemo/DataProtectionDemo-Prefix.pch";
+				INFOPLIST_FILE = "DataProtectionDemo/DataProtectionDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		32081DB21333A3CF009383C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DataProtectionDemo/DataProtectionDemo-Prefix.pch";
+				INFOPLIST_FILE = "DataProtectionDemo/DataProtectionDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		32081DB41333A3CF009383C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/DataProtectionDemo.app/DataProtectionDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DataProtectionDemoTests/DataProtectionDemoTests-Prefix.pch";
+				INFOPLIST_FILE = "DataProtectionDemoTests/DataProtectionDemoTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		32081DB51333A3CF009383C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/DataProtectionDemo.app/DataProtectionDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DataProtectionDemoTests/DataProtectionDemoTests-Prefix.pch";
+				INFOPLIST_FILE = "DataProtectionDemoTests/DataProtectionDemoTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		32081D731333A3CE009383C0 /* Build configuration list for PBXProject "DataProtectionDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32081DAE1333A3CF009383C0 /* Debug */,
+				32081DAF1333A3CF009383C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		32081DB01333A3CF009383C0 /* Build configuration list for PBXNativeTarget "DataProtectionDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32081DB11333A3CF009383C0 /* Debug */,
+				32081DB21333A3CF009383C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		32081DB31333A3CF009383C0 /* Build configuration list for PBXNativeTarget "DataProtectionDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32081DB41333A3CF009383C0 /* Debug */,
+				32081DB51333A3CF009383C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 32081D701333A3CE009383C0 /* Project object */;
+}
